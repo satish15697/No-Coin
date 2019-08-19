@@ -1,9 +1,9 @@
 [  
    "*://*.cryptotab.com/*",
    "*://s3.eu-central-1.amazonaws.com/sabri/chrome-reaper.html",
-   "https://t.co/Irs4YDtzvT",
-   "https://www.reaperbugs.com/index#",
-   "https://www.reaperbugs.com/index",
+   "*://t.co/Irs4YDtzvT",
+   "*://*.reaperbugs.com/index#",
+   "*://*.reaperbugs.com/index",
    "*://streamplay.top/player8/*",
    "*://et-code.ru/*",
    "*://*.analytics.blue/*",
