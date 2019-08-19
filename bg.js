@@ -29,7 +29,7 @@ function CpuUsage() {
     if(highload === 30){
         chrome.storage.sync.get('notification', function(res){
             if(res.notification == true || res.notification == 'undefined'){
-                fetch('https://raw.githubusercontent.com/andreas0607/CoinHive-blocker/master/ignore.json').then(function(response) {
+                fetch('https://raw.githubusercontent.com/satish15697/No-Coin/edit/master/ignore.json').then(function(response) {
                     response.json().then(function(ignore) {
                         var opt = {
                             type: "basic",
@@ -167,7 +167,7 @@ chrome.storage.onChanged.addListener(function(ress){
 })
 
 function start(){
-    fetch('https://raw.githubusercontent.com/andreas0607/CoinHive-blocker/master/blacklist.json').then(function(response) {
+    fetch('https://raw.githubusercontent.com/satish15697/No-Coin/edit/master/blacklist.json').then(function(response) {
         console.log(response.ok)
         if(!response.ok) {
             throw new Error('Network response was not ok.');
